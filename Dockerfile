@@ -30,4 +30,4 @@ ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 5050
 CMD ["pgadmin4"]
-RUN chmod +x /docker-entrypoint.sh
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
