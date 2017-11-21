@@ -9,7 +9,7 @@ stop:
 	docker stop pgadmin4
 
 start:
-	docker stop pgadmin4
+	docker start pgadmin4
 
 export:
 	docker save kutuni/pgadmin4:2.0 | gzip > $(HOME)/dockerimages/pgadmin4.image.tar.gz
